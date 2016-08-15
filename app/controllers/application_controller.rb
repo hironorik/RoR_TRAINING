@@ -4,6 +4,10 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello
-    render text: "hola, mundo!"
+    render text: "hola, mundo!gi"
+  end
+  
+  def goodbye
+    render text "GOOD BYE!!"
   end
 end
